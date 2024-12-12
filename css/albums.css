@@ -1,0 +1,39 @@
+.albums_line{
+    margin-top: 100px;
+    display: flex;
+}
+#images{
+    margin-left: 10%;
+    overflow: hidden;
+    width: 20vw;
+    height: 20vw;
+    min-width: 250px;
+    min-height: 250px;
+    user-select: none;
+    object-fit: cover;
+}
+.name{
+    font-weight: bold;
+    font-size: clamp(30px, 2.5vw, 2vw);
+    margin-left: 30px;
+}
+.album-info{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    max-width: 600px;
+    min-width: 200px;
+    word-break: break-all;
+}
+footer{
+    margin-top:100px;
+    padding: 1vw;
+    text-align: center;
+    font-size: 12px;
+}
+a:hover{
+    text-shadow:
+    0 0 10px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff
+}

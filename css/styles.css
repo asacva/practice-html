@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #020408;
+    /* background-image: url("3.gif"); */
+    /* background-size: 100vw 100vh;
+    background-repeat: no-repeat; */
+    color: rgb(255, 255, 255);
+    animation: transition 0.75s;
+}
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-shadow:
+    0 0 10px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff
+}
+.header{
+    background-color: #020408;
+}
+.header-buttons {
+    display: flex;
+    margin:auto;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    width: 500px; 
+}
+.button {
+    font-weight: bold;
+    width: 500px;
+    margin-left: 20px;
+    text-align:center;
+}
+.button:hover{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff
+}
+.image-and-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+    font-size: clamp(50px, 5vw, 7vw);
+    margin-top: 300px;
+}
+.text-under-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.button-to-main{
+    font-size: 13px;
+    margin-top: 50px;
+    text-align: center;
+}
+#main{
+    display: flex;
+    align-items: center;
+}
+.image{
+    margin-top: 460px;
+    overflow: hidden;
+    width: 15vw;
+    height: 14vw;
+    min-width: 150px;
+    min-height: 150px;
+    /* margin-left: 50px; */
+    margin-left: 7%;
+    user-select: none;
+}
+#text-in-main{
+    max-width: 800px;
+    margin-left: 100px;
+    margin-top: 460px;
+}
+footer{
+    margin-top: 300px;
+    padding: 1vw;
+    text-align: center;
+    font-size: 12px;
+}
+button{
+    margin-top: 30px;
+    font-size: 14px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    text-shadow:
+    0 0 10px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff
+}
